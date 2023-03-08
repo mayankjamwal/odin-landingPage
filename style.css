@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+/*section 1 styling starts */
+.image{
+    padding:7rem 12rem;
+    background-color: #565669;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 12rem;
+}
+.nav-container .ul-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.nav-container .ul-list li{
+    color: #ddd;
+    font-size: 1.1rem;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 12rem;
+    gap: 8rem;
+}
+.main-container h1,p{
+    margin-left: -4px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.para1{
+    font-size: 18px;
+    color: #ddd;
+    word-spacing: 2px;
+}
+
+.main-container button{
+    background-color: royalblue;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    margin-left: -0.3rem; 
+}
+/*section 1 styling ends */
+
+/*section 2 styling starts */
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 70px;
+}
+.container-two h2{
+    margin-top: 40px;
+    font-size: 40px;
+    color: #1f2937;
+}
+
+.ul-list-two{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    list-style-type: none;
+}
+
+.ul-list-two li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+}
+
+li div{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    border: 1px solid royalblue;
+    border-width: thick;
+    padding: 30px;
+}
+
+.ul-list-two li p{
+    max-width: 19ch;
+    text-align: center;
+    color: #555;
+    line-height: 19px;
+}
+/*section 2 styling ends */
+
+/*section 3 styling starts */
+.container-three{
+    background-color: #ddd;
+    margin-top: 10px;
+    padding: 8rem 0rem;
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center ;
+    gap: 2rem;    
+}
+.container-three .quote{
+    font-size: 2rem;
+    max-width: 45ch;
+    font-style: italic;
+    font-weight: 100;
+}
+.container-three .name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: -400px;
+}
+/*section 3 styling ends */
+
+/*section 4 styling starts */
+
+
