@@ -34,6 +34,10 @@
     color: #ddd;
     font-size: 1.1rem;
 }
+.nav-container .ul-list li:hover{
+    color:white;
+    cursor: pointer;
+}
 .main-container{
     display: flex;
     justify-content: space-between;
@@ -70,6 +74,11 @@ header{
     border-radius: 10px;
     border:none;
     margin-left: -0.3rem; 
+}
+
+.main-container button:hover{
+    cursor: pointer;
+    box-shadow: 0.15px 0.25px royalblue;
 }
 /*section 1 styling ends */
 
@@ -148,4 +157,70 @@ li div{
 
 /*section 4 styling starts */
 
+.call-to-action-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5rem;
+    margin: 120px 200px;
+    padding: 60px 20px;
+    background-color: royalblue;
+    color:white;
+    border-radius: 20px;
+    align-items: center;
+}
 
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+}
+
+.text-container h3{
+    font-size: 1.5rem;
+}
+.text-container p{
+    color: #ddd;
+    margin-left: 1px;
+}
+
+.button-container button{
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-width: medium;
+}
+.button-container button:hover{
+    background-color: white;
+    color:royalblue;
+    cursor: pointer;
+}
+
+/*section 4 styling ends */
+
+/*Footer styling starts */
+
+.footer{
+    background-color: #1f2937;
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    word-spacing: 0.05rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;    
+}
+.footer a:hover{
+    text-decoration: underline;
+
+}
+
+/*Footer styling ends */
